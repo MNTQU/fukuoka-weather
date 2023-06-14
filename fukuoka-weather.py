@@ -151,6 +151,7 @@ def get_previous_message_timestamp(channel):
     except SlackApiError as e:
         print("Error retrieving previous message: ", e)
 
+
 attachments_today = [
     {
         "blocks": [
